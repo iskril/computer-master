@@ -362,6 +362,13 @@ li {
   margin: 10px;
   background-color: #fff;
   color: #000;
+  opacity: 0.9;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.work-examples__item:hover {
+  opacity: 1;
 }
 
 .work-examples__item a {
