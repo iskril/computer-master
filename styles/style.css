@@ -360,6 +360,8 @@ li {
 .work-examples__item {
   width: calc(33.33333% - 20px);
   margin: 10px;
+  width: 369px;
+  position: relative;
   background-color: #fff;
   color: #000;
   opacity: 0.9;
@@ -372,6 +374,7 @@ li {
 }
 
 .work-examples__item a {
+  width: 369px;
   text-decoration: none;
   color: #000;
   text-align: center;
@@ -381,7 +384,7 @@ li {
   max-width: 360px;
 }
 
-.work-examples__img-box > img {
+.work-examples__img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
