@@ -127,6 +127,7 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 30px 0;
 }
 
 @media (max-width: 500px) {
@@ -139,12 +140,13 @@ li {
   text-decoration: none;
   font-size: 26px;
   color: #fff;
-  -webkit-transition: color .1s ease;
-  transition: color .1s ease;
+  opacity: 0.8;
+  -webkit-transition: opacity .1s ease;
+  transition: opacity .1s ease;
 }
 
 .nav__link:hover {
-  color: #919191;
+  opacity: 1;
 }
 
 /*========================*/

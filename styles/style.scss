@@ -120,6 +120,7 @@ li {
 .nav {
   display: flex;
   justify-content: space-between;
+  margin: 30px 0;
 
   @media (max-width: 500px) {
     display: none;
@@ -131,11 +132,12 @@ li {
   text-decoration: none;
   font-size: 26px;
   color: #fff;
+  opacity: 0.8;
 
-  transition: color .1s ease;
+  transition: opacity .1s ease;
 
   &:hover {
-    color: rgb(145, 145, 145)
+    opacity: 1;
   }
 }
 
