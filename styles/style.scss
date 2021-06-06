@@ -136,7 +136,7 @@ a {
   right: 10px;
   height: 100%;
   z-index: 5;
-  padding: 130px 0 0 0;
+
   transform: translate(120%, 0);
   transition: left 0.3s ease 0s;
 }
@@ -147,6 +147,7 @@ a {
   margin-bottom: 0;
 }
 .menu__body._active {
+  top: 130px;
   transform: translate(0, 0);
 }
 
