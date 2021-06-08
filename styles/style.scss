@@ -116,11 +116,34 @@ a {
 }
 
 .menu__icon {
-  display: none;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+
+  z-index: 10;
+  
   & img {
-  max-width: 130px;
+  max-width: 80px;
+
+  animation-name: animation-icon;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+  
+}
+
+@keyframes animation-icon {
+  0%{
+    max-width: 50px;
+  }
+
+  100%{
+    max-width: 100px;
   }
 }
+
 @media (min-width: 767px) {
   .menu__list {
     padding: 10px 0;
@@ -358,11 +381,6 @@ a {
     width: 100%;
   }
 }
-
-.work-examples__img-box {
-
-}
-
 .work-examples__img {
   width: 100%;
   max-height: 200px;
