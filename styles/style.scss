@@ -149,6 +149,7 @@ a {
 .menu__body._active {
   top: 130px;
   transform: translate(0, 0);
+  
 }
 
 /*========================*/
@@ -303,14 +304,16 @@ a {
 
 .work-examples__wrapper {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .work-examples__item {
-  width: calc(33.33333% - 20px);
+  width: 31%;
   margin: 10px;
-  width: 369px;
-  position: relative;
+  text-align: center;
+
+  overflow: hidden;
 
   background-color: #fff;
   color: #000;
@@ -327,14 +330,22 @@ a {
     color: #000;
     text-align: center;
   }
+
+  @media (max-width: 905px) {
+    width: 40%;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 }
 
 .work-examples__img-box {
-  max-width: 360px;
+
 }
 
 .work-examples__img {
   width: 100%;
+  max-height: 200px;
   object-fit: cover;
 }
 
