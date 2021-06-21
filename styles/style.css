@@ -120,6 +120,7 @@ a {
 
 @media (max-width: 992px) {
   .header__logo-text {
+    margin-top: 60px;
     font-size: 28px;
   }
 }
@@ -133,8 +134,9 @@ a {
 .menu__icon {
   position: fixed;
   right: 10px;
-  top: 40px;
+  top: 30px;
   z-index: 10;
+  cursor: pointer;
 }
 
 .menu__icon img {
@@ -456,5 +458,31 @@ a {
   font-size: 20px;
 }
 
-/*/////////////////////////*/
+/*///  install windows  ///*/
+caption {
+  font-size: 32px;
+  margin: 25px 0;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table tr td {
+  width: 100%;
+  border: 1px white solid;
+  padding: 10px 0;
+}
+
+@media (min-width: 1000px) {
+  table tr td {
+    width: 1000px;
+  }
+}
+
+.price {
+  width: 30px;
+}
+
+/*///  install windows  ///*/
 /*# sourceMappingURL=style.css.map */
