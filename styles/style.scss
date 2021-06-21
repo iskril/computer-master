@@ -116,17 +116,16 @@ a {
 }
 
 .menu__icon {
-  position: absolute;
-  right: 30px;
-  top: 50px;
-
+  position: fixed;
+  right: 10px;
+  top: 40px;
   z-index: 10;
   
   & img {
   max-width: 80px;
 
   animation-name: animation-icon;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -136,11 +135,13 @@ a {
 
 @keyframes animation-icon {
   0%{
-    max-width: 50px;
+    border: 1px solid white;
+    border-radius: 30%;
   }
 
   100%{
-    max-width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
   }
 }
 

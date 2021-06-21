@@ -131,9 +131,9 @@ a {
 }
 
 .menu__icon {
-  position: absolute;
-  right: 30px;
-  top: 50px;
+  position: fixed;
+  right: 10px;
+  top: 40px;
   z-index: 10;
 }
 
@@ -141,8 +141,8 @@ a {
   max-width: 80px;
   -webkit-animation-name: animation-icon;
           animation-name: animation-icon;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
@@ -153,19 +153,23 @@ a {
 
 @-webkit-keyframes animation-icon {
   0% {
-    max-width: 50px;
+    border: 1px solid white;
+    border-radius: 30%;
   }
   100% {
-    max-width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
   }
 }
 
 @keyframes animation-icon {
   0% {
-    max-width: 50px;
+    border: 1px solid white;
+    border-radius: 30%;
   }
   100% {
-    max-width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
   }
 }
 
